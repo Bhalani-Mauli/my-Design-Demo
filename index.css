@@ -22,11 +22,11 @@ img{
 
 .content{
     width: 60%;
-    display:flex;
-    height: 100%;   
+    display:flex; 
     flex-direction: column;
-    justify-content: center;
-    align-items: center
+    justify-content: left;
+    align-items: left;
+    padding: 10%;
 }
 from{
     margin-left: 50;
@@ -37,12 +37,37 @@ from{
 }
 .loginBtn{
    border-radius: 50px;
-
+   justify-content: left;
+   width: 100px;
+   margin-left: 20px;
+   background-color: blue;
+   font-size: smaller;
+   color: antiquewhite; 
+   padding: 5px;
 }
 
 .input{
     margin:20px;
     border-width:0 0 1px 0;
-    border-color: blueviolet;
-
+    border-color:dimgrey;
+}
+.heading{
+    margin: 20px;
+}
+.other{
+    display: flex;
+    color: darkslategrey;
+}
+.face{
+    display: flex;
+    padding: 25px;
+    width: 20px;
+    height: 20px;
+}
+.myhead{
+    top: 50%;
+}
+.footer{
+    top: 100%;
+    padding: 10%;
 }
