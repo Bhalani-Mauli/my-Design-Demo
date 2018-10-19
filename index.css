@@ -43,7 +43,7 @@ from{
    background-color: blue;
    font-size: smaller;
    color: antiquewhite; 
-   padding: 5px;
+   padding: 12px;
 }
 
 .input{
@@ -66,8 +66,11 @@ from{
 }
 .myhead{
     top: 50%;
+    position: relative;
+    
 }
 .footer{
     top: 100%;
     padding: 10%;
+    color: darkslategray
 }
