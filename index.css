@@ -1,5 +1,48 @@
-h1{
-    background-color:green;
-    text-decoration: blue;
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+*{
+    font-family: 'Raleway', sans-serif !important;
+}
+.main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
     
+}
+
+.image{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    overflow: hidden
+}
+img{
+    filter: sepia(600%) hue-rotate(190deg) saturate(600%);
+}
+
+.content{
+    width: 60%;
+    display:flex;
+    height: 100%;   
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+}
+from{
+    margin-left: 50;
+    border-bottom-width: 3px;
+}
+.borderTest{
+    border:1px solid red;
+}
+.loginBtn{
+   border-radius: 50px;
+
+}
+
+.input{
+    margin:20px;
+    border-width:0 0 1px 0;
+    border-color: blueviolet;
+
 }
