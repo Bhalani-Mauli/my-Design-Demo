@@ -3,22 +3,29 @@
 *{
     font-family: 'Raleway', sans-serif !important;
 }
+
+body{
+    overflow: hidden;
+    margin: 0px;
+    padding: 0px;
+}
+
 .main{
     width: 100vw;
     height: 100vh;
     display: flex;
-    
 }
 
-.image{
+.image {
     width: 40%;
     display: flex;
-    justify-content: center;
-    overflow: hidden
-}
-img{
+    overflow: hidden;
+    flex-direction: column;
+    background-image: url(./Assets//SurfingGirl.jpg);
     filter: sepia(600%) hue-rotate(190deg) saturate(600%);
-}
+    background-size: cover;
+    background-position-x: center;
+  }
 
 .content{
     width: 60%;
@@ -31,9 +38,6 @@ img{
 from{
     margin-left: 50;
     border-bottom-width: 3px;
-}
-.borderTest{
-    border:1px solid red;
 }
 .loginBtn{
    border-radius: 50px;
@@ -64,13 +68,42 @@ from{
     width: 20px;
     height: 20px;
 }
-.myhead{
-    top: 50%;
-    position: relative;
-    
-}
 .footer{
     top: 100%;
     padding: 10%;
     color: darkslategray
 }
+.round{
+    height: 100%;
+    width: 100%;
+    /**aa su chhe 50 px width to bc kyathi ave ena thi motu and height api 500%
+     atale su matlab khabar pade game em lakhi do 500% and 50 px*/
+}
+.third{
+    position: fixed;
+      bottom: 0;
+      margin: 20px;
+      width: 50%;
+  }
+  .myhead{
+    font-size: 15px;
+    margin: 10px;
+    color: white;
+  }
+  .elements{
+    height: fit-content;
+    padding: 10px;
+    margin: 20px;
+    color: white;
+}
+.second{
+    font-size: 15px;
+    margin: 20px;
+    color: black;
+    width: 60%;
+}
+.myLogo {
+    height: 40px;
+    width: 40px;
+    margin :30px;
+  }
