@@ -67,7 +67,8 @@ from{
 .footer{
     top: 100%;
     padding: 20%;
-    color: darkslategray
+    color: darkslategray;
+  
 }
 .round{
     height: 100%;
